@@ -9,9 +9,9 @@ export const fakeData = [
     region: "Beşiktaş",
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/cinema1.png" },
-      { id: 2, url: "/assets/cinema2.png" },
-      { id: 3, url: "/assets/cinema3.png" },
+      { id: 1, url: "/assets/cinema.png" },
+      { id: 2, url: "/assets/cinema.png" },
+      { id: 3, url: "/assets/cinema.png" },
     ],
   },
   {
@@ -25,8 +25,8 @@ export const fakeData = [
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
-      { id: 2, url: "/assets/theatre2.png" },
-      { id: 3, url: "/assets/theatre3.png" },
+      { id: 2, url: "/assets/theatre.png" },
+      { id: 3, url: "/assets/theatre.png" },
     ],
   },
   {
@@ -39,9 +39,9 @@ export const fakeData = [
     region: "Bebek",
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/concert.png" },
-      { id: 2, url: "/assets/theatre2.png" },
-      { id: 3, url: "/assets/theatre3.png" },
+      { id: 1, url: "/assets/konser.jpg" },
+      { id: 2, url: "/assets/konser.jpg" },
+      { id: 3, url: "/assets/konser.jpg" },
     ],
   },
   {
@@ -54,9 +54,9 @@ export const fakeData = [
     region: "Bebek",
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/concert.png" },
-      { id: 2, url: "/assets/theatre2.png" },
-      { id: 3, url: "/assets/theatre3.png" },
+      { id: 1, url: "/assets/sergi.jpg" },
+      { id: 2, url: "/assets/sergi.jpg" },
+      { id: 3, url: "/assets/sergi.jpg" },
     ],
   },
   {
@@ -69,9 +69,9 @@ export const fakeData = [
     region: "Bebek",
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/opera.png" },
-      { id: 2, url: "/assets/opera2.png" },
-      { id: 3, url: "/assets/opera3.png" },
+      { id: 1, url: "/assets/opera.jpg" },
+      { id: 2, url: "/assets/opera.jpg" },
+      { id: 3, url: "/assets/opera.jpg" },
     ],
   },
   {
@@ -84,9 +84,9 @@ export const fakeData = [
     region: "Üsküdar",
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/Festival.png" },
-      { id: 2, url: "/assets/Festival2.png" },
-      { id: 3, url: "/assets/Festival3.png" },
+      { id: 1, url: "/assets/festival.jpg" },
+      { id: 2, url: "/assets/festival.jpg" },
+      { id: 3, url: "/assets/festival.jpg" },
     ],
   },
   {
@@ -99,9 +99,9 @@ export const fakeData = [
     region: "Beşiktaş",
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/cinema1.png" },
-      { id: 2, url: "/assets/cinema2.png" },
-      { id: 3, url: "/assets/cinema3.png" },
+      { id: 1, url: "/assets/cinema.png" },
+      { id: 2, url: "/assets/cinema.png" },
+      { id: 3, url: "/assets/cinema.png" },
     ],
   },
   {
