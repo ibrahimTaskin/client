@@ -1,3 +1,4 @@
+import "./dashboard.css";
 import React from "react";
 import Navbar from "../../../app/layout/Navbar";
 import ActivityFilter from "./ActivityFilter";
@@ -7,9 +8,14 @@ const ActivityDashboard = () => {
   return (
     <>
       <Navbar />
-      <h1>Etkinlik Dashboard</h1>
-      <ActivityList />
-      <ActivityFilter />
+      <div className="container">
+        <div className="main-content">
+          <ActivityList />
+        </div>
+        <div className="side-content">
+          <ActivityFilter />
+        </div>
+      </div>
     </>
   );
 };
