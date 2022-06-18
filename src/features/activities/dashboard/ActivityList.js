@@ -1,8 +1,13 @@
 import React from 'react'
+import ActivityItem from './ActivityItem'
 
-const ActivityList = () => {
+const ActivityList = ({data}) => {
   return (
-    <div>Activity List</div>
+    <div className='activity-list'>
+      {data?.map((activity)=> (
+        <ActivityItem key={activity?.id} activity={activity}/>
+      ))}
+    </div>
   )
 }
 

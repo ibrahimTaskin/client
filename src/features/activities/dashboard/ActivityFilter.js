@@ -1,8 +1,14 @@
 import React from 'react'
 
-const ActivityFilter = () => {
+const ActivityFilter = ({handleChange}) => {
   return (
-    <div>Activity Filter</div>
+    <div className='filter-container'>
+      <input
+        className='filter-input'
+        placeholder='Etkinlik ara'
+        onChange={handleChange}
+      />
+    </div>
   )
 }
 

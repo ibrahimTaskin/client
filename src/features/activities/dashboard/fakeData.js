@@ -1,4 +1,4 @@
-export const data = [
+export const fakeData = [
   {
     id: 1,
     title: "Sinema 1",
