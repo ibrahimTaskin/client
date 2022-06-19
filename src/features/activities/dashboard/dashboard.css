@@ -127,7 +127,7 @@
   top: 0;
 }
 
-.info h2 {
+.info h3 {
   text-align: center;
 }
 .item-image:hover .info {
@@ -179,4 +179,5 @@
 
 .filter-category li{
    padding-right:10px ;
+   
 }

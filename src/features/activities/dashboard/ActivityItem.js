@@ -10,7 +10,7 @@ const ActivityItem = ({ activity }) => {
           <p className="description">{description}</p>
           <div class="control">
             <button class="btn">
-              <span class="buy">Görüntüle</span>
+              <span>Görüntüle</span>
             </button>
           </div>
         </div>
@@ -19,7 +19,7 @@ const ActivityItem = ({ activity }) => {
           <img src={images[0].url}/>
 
           <div class="info">
-            <h2> Etkinlik Özeti </h2>
+            <h3> Etkinlik Özeti </h3>
             <ul>
               <li>
                 <strong>Kategori : </strong> {category}
