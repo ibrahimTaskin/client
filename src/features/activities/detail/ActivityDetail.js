@@ -25,7 +25,12 @@ const ActivityDetail = () => {
 
         <div class="col">
           <div class="box">
-            <p>Özet bilgiler</p>
+            <h3>{activity?.title}</h3>
+            <p>{activity?.description}</p>
+            <p>{new Date(activity?.date).toLocaleDateString()}</p>
+            <span>{activity?.city} </span>
+            <span>{activity?.region}</span>
+            <p>{activity?.owner}</p>
           </div>
         </div>
 
