@@ -7,6 +7,7 @@ export const fakeData = [
     date: "Sat Jun 24 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Beşiktaş",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/cinema.png" },
@@ -22,6 +23,7 @@ export const fakeData = [
     date: "Sat Jun 23 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Zeytinburnu",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
@@ -37,6 +39,7 @@ export const fakeData = [
     date: "Sat Jun 25 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/konser.jpg" },
@@ -52,6 +55,7 @@ export const fakeData = [
     date: "Sat Jun 27 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/sergi.jpg" },
@@ -67,6 +71,7 @@ export const fakeData = [
     date: "Sat Jun 28 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/opera.jpg" },
@@ -82,6 +87,7 @@ export const fakeData = [
     date: "Sat Jul 14 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Üsküdar",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/festival.jpg" },
@@ -97,6 +103,7 @@ export const fakeData = [
     date: "Sat Jun 24 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Beşiktaş",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/cinema.png" },
@@ -112,6 +119,7 @@ export const fakeData = [
     date: "Sat Jun 23 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Zeytinburnu",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
@@ -127,6 +135,7 @@ export const fakeData = [
     date: "Sat Jun 25 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/concert.png" },
@@ -142,6 +151,7 @@ export const fakeData = [
     date: "Sat Jun 27 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/concert.png" },
@@ -157,6 +167,7 @@ export const fakeData = [
     date: "Sat Jun 28 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/opera.png" },
@@ -172,6 +183,7 @@ export const fakeData = [
     date: "Sat Jul 27 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Üsküdar",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/Festival.png" },
@@ -187,6 +199,7 @@ export const fakeData = [
     date: "Sat Jun 15 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Beşiktaş",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/cinema1.png" },
@@ -202,6 +215,7 @@ export const fakeData = [
     date: "Sat Jun 19 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Zeytinburnu",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
@@ -217,6 +231,7 @@ export const fakeData = [
     date: "Sat Jun 21 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/concert.png" },
@@ -232,6 +247,7 @@ export const fakeData = [
     date: "Sat Jun 26 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/concert.png" },
@@ -247,6 +263,7 @@ export const fakeData = [
     date: "Sat Jun 30 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Bebek",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/opera.png" },
@@ -262,6 +279,7 @@ export const fakeData = [
     date: "Sat Jul 2 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
     region: "Üsküdar",
+    owner:"İBB",
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/Festival.png" },

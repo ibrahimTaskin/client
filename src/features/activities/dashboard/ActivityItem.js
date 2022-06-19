@@ -1,13 +1,13 @@
 import React from "react";
 
 const ActivityItem = ({ activity }) => {
-    console.log(activity.images[0].url);
+  const {title,description,images,category,date,city,region,owner} = activity;
   return (
     <div className="activity-list-item">
       <div id="container">
         <div class="item-details">
-          <h1>{activity.title}</h1>
-          <p className="description">{activity.description}</p>
+          <h1>{title}</h1>
+          <p className="description">{description}</p>
           <div class="control">
             <button class="btn">
               <span class="buy">Görüntüle</span>
@@ -16,22 +16,25 @@ const ActivityItem = ({ activity }) => {
         </div>
 
         <div class="item-image">
-          <img src={activity.images[0].url}/>
+          <img src={images[0].url}/>
 
           <div class="info">
             <h2> Etkinlik Özeti </h2>
             <ul>
               <li>
-                <strong>Kategori : </strong> {activity.category}
+                <strong>Kategori : </strong> {category}
               </li>
               <li>
-                <strong>Tarih : </strong> {new Date(activity.date).toLocaleDateString()}
+                <strong>Tarih : </strong> {new Date(date).toLocaleDateString()}
               </li>
               <li>
-                <strong>Şehir: </strong> {activity.city}
+                <strong>Şehir: </strong> {city}
               </li>
               <li>
-                <strong>Semt: </strong> {activity.region}
+                <strong>Semt: </strong> {region}
+              </li>
+              <li>
+                <strong>Düzenleyen: </strong> {owner}
               </li>
             </ul>
           </div>

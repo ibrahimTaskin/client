@@ -18,9 +18,6 @@ const Navbar = () => {
           <Link to="/about">Hakkımızda</Link>
         </li>
       </ul>
-      <div >
-        <Link className="create-btn" to="/createActivity">Yeni Etkinlik</Link>
-        </div>
     </nav>
   );
 };
