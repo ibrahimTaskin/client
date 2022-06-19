@@ -1,6 +1,5 @@
 import "./dashboard.css";
 import React, { useEffect, useState } from "react";
-import Navbar from "../../../app/layout/Navbar";
 import ActivityFilter from "./ActivityFilter";
 import ActivityList from "./ActivityList";
 import { fakeData } from "./fakeData";
@@ -59,8 +58,7 @@ const ActivityDashboard = () => {
   };
 
   return (
-    <>
-      <Navbar />
+    <>     
       <div className="container">
         <div className="main-content">
           <ActivityList data={data} />

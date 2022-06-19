@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ActivityItem = ({ activity }) => {
-  const {title,description,images,category,date,city,region,owner} = activity;
+  const {id,title,description,images,category,date,city,region,owner} = activity;
   return (
     <div className="activity-list-item">
       <div id="container">
@@ -10,13 +11,13 @@ const ActivityItem = ({ activity }) => {
           <p className="description">{description}</p>
           <div class="control">
             <button class="btn">
-              <span>Görüntüle</span>
+             <span><Link style={{textDecoration:"none"}} to={`/${id}`}>Görüntüle</Link></span>
             </button>
           </div>
         </div>
 
         <div class="item-image">
-          <img src={images[0].url}/>
+          <img src={images?.length > 0 ? images[0].url : `/assets/${category}.png`}/>
 
           <div class="info">
             <h3> Etkinlik Özeti </h3>
@@ -29,9 +30,6 @@ const ActivityItem = ({ activity }) => {
               </li>
               <li>
                 <strong>Şehir: </strong> {city}
-              </li>
-              <li>
-                <strong>Semt: </strong> {region}
               </li>
               <li>
                 <strong>Düzenleyen: </strong> {owner}

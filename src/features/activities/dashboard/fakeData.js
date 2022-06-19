@@ -8,12 +8,13 @@ export const fakeData = [
     city: "İstanbul",
     region: "İstinye",
     owner:"İstinye Park",
-    map: { lat: 59.95, lng: 30.33 },
-    images: [
-      { id: 1, url: "/assets/cinema.png" },
-      { id: 2, url: "/assets/cinema.png" },
-      { id: 3, url: "/assets/cinema.png" },
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
     ],
+    map: { lat: 59.95, lng: 30.33 },
+    images: [],
   },
   {
     id: 2,
@@ -24,6 +25,11 @@ export const fakeData = [
     city: "İstanbul",
     region: "Beşiktaş",
     owner:"BKM",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
@@ -40,11 +46,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"Jolly",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/concert.jpg" },
-      { id: 2, url: "/assets/concert.jpg" },
-      { id: 3, url: "/assets/concert.jpg" },
+      { id: 1, url: "/assets/concert.png" },
+      { id: 2, url: "/assets/concert.png" },
+      { id: 3, url: "/assets/concert.png" },
     ],
   },
   {
@@ -56,11 +67,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Galata",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/exhibition.jpg" },
-      { id: 2, url: "/assets/exhibition.jpg" },
-      { id: 3, url: "/assets/exhibition.jpg" },
+      { id: 1, url: "/assets/exhibition.png" },
+      { id: 2, url: "/assets/exhibition.png" },
+      { id: 3, url: "/assets/exhibition.png" },
     ],
   },
   {
@@ -72,11 +88,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Taksim",
     owner:"TC Kültür Bakanlığı",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/opera.jpg" },
-      { id: 2, url: "/assets/opera.jpg" },
-      { id: 3, url: "/assets/opera.jpg" },
+      { id: 1, url: "/assets/opera.png" },
+      { id: 2, url: "/assets/opera.png" },
+      { id: 3, url: "/assets/opera.png" },
     ],
   },
   {
@@ -88,12 +109,13 @@ export const fakeData = [
     city: "İstanbul",
     region: "Beşiktaş",
     owner:"Bahçeşehir Üniversitesi",
-    map: { lat: 59.95, lng: 30.33 },
-    images: [
-      { id: 1, url: "/assets/festival.jpg" },
-      { id: 2, url: "/assets/festival.jpg" },
-      { id: 3, url: "/assets/festival.jpg" },
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
     ],
+    map: { lat: 59.95, lng: 30.33 },
+    images: [ ],
   },
   {
     id: 7,
@@ -104,6 +126,11 @@ export const fakeData = [
     city: "İstanbul",
     region: "Beşiktaş",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/cinema.png" },
@@ -120,6 +147,11 @@ export const fakeData = [
     city: "İstanbul",
     region: "Zeytinburnu",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
@@ -136,11 +168,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/concert.jpg" },
-      { id: 2, url: "/assets/concert.jpg" },
-      { id: 3, url: "/assets/concert.jpg" },
+      { id: 1, url: "/assets/concert.png" },
+      { id: 2, url: "/assets/concert.png" },
+      { id: 3, url: "/assets/concert.png" },
     ],
   },
   {
@@ -152,11 +189,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/exhibition.jpg" },
-      { id: 2, url: "/assets/exhibition.jpg" },
-      { id: 3, url: "/assets/exhibition.jpg" },
+      { id: 1, url: "/assets/exhibition.png" },
+      { id: 2, url: "/assets/exhibition.png" },
+      { id: 3, url: "/assets/exhibition.png" },
     ],
   },
   {
@@ -168,11 +210,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/opera.jpg" },
-      { id: 2, url: "/assets/opera.jpg" },
-      { id: 3, url: "/assets/opera.jpg" },
+      { id: 1, url: "/assets/opera.png" },
+      { id: 2, url: "/assets/opera.png" },
+      { id: 3, url: "/assets/opera.png" },
     ],
   },
   {
@@ -184,11 +231,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Üsküdar",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/festival.jpg" },
-      { id: 2, url: "/assets/festival.jpg" },
-      { id: 3, url: "/assets/festival.jpg" },
+      { id: 1, url: "/assets/festival.png" },
+      { id: 2, url: "/assets/festival.png" },
+      { id: 3, url: "/assets/festival.png" },
     ],
   },
   {
@@ -200,6 +252,11 @@ export const fakeData = [
     city: "İstanbul",
     region: "Beşiktaş",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/cinema.png" },
@@ -216,6 +273,11 @@ export const fakeData = [
     city: "İstanbul",
     region: "Zeytinburnu",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
@@ -232,11 +294,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/concert.jpg" },
-      { id: 2, url: "/assets/concert.jpg" },
-      { id: 3, url: "/assets/concert.jpg" },
+      { id: 1, url: "/assets/concert.png" },
+      { id: 2, url: "/assets/concert.png" },
+      { id: 3, url: "/assets/concert.png" },
     ],
   },
   {
@@ -248,11 +315,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/exhibition.jpg" },
-      { id: 2, url: "/assets/exhibition.jpg" },
-      { id: 3, url: "/assets/exhibition.jpg" },
+      { id: 1, url: "/assets/exhibition.png" },
+      { id: 2, url: "/assets/exhibition.png" },
+      { id: 3, url: "/assets/exhibition.png" },
     ],
   },
   {
@@ -264,11 +336,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Bebek",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/opera.jpg" },
-      { id: 2, url: "/assets/opera.jpg" },
-      { id: 3, url: "/assets/opera.jpg" },
+      { id: 1, url: "/assets/opera.png" },
+      { id: 2, url: "/assets/opera.png" },
+      { id: 3, url: "/assets/opera.png" },
     ],
   },
   {
@@ -280,11 +357,16 @@ export const fakeData = [
     city: "İstanbul",
     region: "Üsküdar",
     owner:"İBB",
+    ticket:[
+      { id: 1, price: 50 ,category:"3"},
+      { id: 2, price: 75 ,category:"3"},
+      { id: 3, price: 100,category:"3"},
+    ],
     map: { lat: 59.95, lng: 30.33 },
     images: [
-      { id: 1, url: "/assets/festival.jpg" },
-      { id: 2, url: "/assets/festival.jpg" },
-      { id: 3, url: "/assets/festival.jpg" },
+      { id: 1, url: "/assets/festival.png" },
+      { id: 2, url: "/assets/festival.png" },
+      { id: 3, url: "/assets/festival.png" },
     ],
   },
 ];
