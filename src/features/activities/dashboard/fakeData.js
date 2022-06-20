@@ -8,12 +8,8 @@ export const fakeData = [
     city: "İstanbul",
     region: "İstinye",
     owner:"İstinye Park",
-    ticket:[
-      { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
-    ],
-    map: { lat: 59.95, lng: 30.33 },
+    ticket:[],
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [],
   },
   {
@@ -27,10 +23,10 @@ export const fakeData = [
     owner:"BKM",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
       { id: 2, url: "/assets/theatre.png" },
@@ -48,10 +44,10 @@ export const fakeData = [
     owner:"Jolly",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/concert.png" },
       { id: 2, url: "/assets/concert.png" },
@@ -69,10 +65,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/exhibition.png" },
       { id: 2, url: "/assets/exhibition.png" },
@@ -90,10 +86,10 @@ export const fakeData = [
     owner:"TC Kültür Bakanlığı",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/opera.png" },
       { id: 2, url: "/assets/opera.png" },
@@ -111,10 +107,10 @@ export const fakeData = [
     owner:"Bahçeşehir Üniversitesi",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [ ],
   },
   {
@@ -128,10 +124,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/cinema.png" },
       { id: 2, url: "/assets/cinema.png" },
@@ -149,10 +145,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
       { id: 2, url: "/assets/theatre.png" },
@@ -170,10 +166,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/concert.png" },
       { id: 2, url: "/assets/concert.png" },
@@ -191,10 +187,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/exhibition.png" },
       { id: 2, url: "/assets/exhibition.png" },
@@ -212,10 +208,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/opera.png" },
       { id: 2, url: "/assets/opera.png" },
@@ -233,10 +229,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/festival.png" },
       { id: 2, url: "/assets/festival.png" },
@@ -254,10 +250,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/cinema.png" },
       { id: 2, url: "/assets/cinema.png" },
@@ -275,10 +271,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/theatre.png" },
       { id: 2, url: "/assets/theatre.png" },
@@ -296,10 +292,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/concert.png" },
       { id: 2, url: "/assets/concert.png" },
@@ -317,10 +313,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/exhibition.png" },
       { id: 2, url: "/assets/exhibition.png" },
@@ -338,10 +334,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/opera.png" },
       { id: 2, url: "/assets/opera.png" },
@@ -359,10 +355,10 @@ export const fakeData = [
     owner:"İBB",
     ticket:[
       { id: 1, price: 50 ,category:"3"},
-      { id: 2, price: 75 ,category:"3"},
-      { id: 3, price: 100,category:"3"},
+      { id: 2, price: 75 ,category:"2"},
+      { id: 3, price: 100,category:"1"},
     ],
-    map: { lat: 59.95, lng: 30.33 },
+    map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
       { id: 1, url: "/assets/festival.png" },
       { id: 2, url: "/assets/festival.png" },

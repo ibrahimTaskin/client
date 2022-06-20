@@ -14,7 +14,7 @@ body{
     color: white;
     display: flex;
     align-items: stretch;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 2rem;
     padding: 0 1rem;
 }

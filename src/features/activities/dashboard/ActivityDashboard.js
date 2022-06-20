@@ -57,6 +57,14 @@ const ActivityDashboard = () => {
     setData(fakeData);
   };
 
+  const getAllEndedData = () => {
+    let _data = fakeData;
+    var newData = _data.filter((x) =>
+        new Date(x.date).toLocaleDateString() < new Date(Date.now()).toLocaleDateString()
+    );
+    setData(newData);
+  }
+
   return (
     <>     
       <div className="container">
@@ -71,6 +79,7 @@ const ActivityDashboard = () => {
             handleChange={handleChange}
             getAllData={getAllData}
             handleCategoryChange={handleCategoryChange}
+            getAllEndedData={getAllEndedData}
           />
         </div>
       </div>

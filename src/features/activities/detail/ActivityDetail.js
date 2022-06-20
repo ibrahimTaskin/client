@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fakeData } from "../dashboard/fakeData";
 import ActivityDetailSlider from './ActivityDetailSlider';
+import ActivityDetailMap from './ActivityDetailMap';
+import ActivityDetailSocial from './ActivityDetailSocial';
 
 const ActivityDetail = () => {
   const [activity, setActivity] = useState(null);
@@ -31,18 +33,24 @@ const ActivityDetail = () => {
             <span>{activity?.city} </span>
             <span>{activity?.region}</span>
             <p>{activity?.owner}</p>
+            <p>{activity?.ticket?.length > 0 ? activity?.ticket?.map(ticket=> (
+              <>              
+                <label>Kategori: {ticket.category} </label>
+                <label>Fiyat: {ticket.price} </label><br/>
+              </>
+            )) : <p>Ücretsiz</p>}</p>
           </div>
         </div>
 
         <div class="col">
           <div class="box">
-            <p>Sosyal medya</p>
+            <ActivityDetailSocial/>
           </div>
         </div>
 
         <div class="col">
           <div class="box">
-            <p>Harita</p>
+            <ActivityDetailMap activity={activity} />
           </div>
         </div>
       </div>

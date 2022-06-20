@@ -9,7 +9,8 @@ const ActivityFilter = ({
   handleCategoryChange,
   findDate,
   value,
-  getAllData
+  getAllData,
+  getAllEndedData
 }) => {
   return (
     <div className="filter-container">
@@ -36,6 +37,11 @@ const ActivityFilter = ({
       <div>
         <button onClick={getAllData} style={{ marginTop: 10, width: "100%" }}>
           Tüm Etkinlikler
+        </button>
+      </div>
+      <div>
+        <button onClick={getAllEndedData} style={{ marginTop: 10, width: "100%" }}>
+          Süresi Biten Etkinlikler
         </button>
       </div>
     </div>

@@ -7,17 +7,6 @@ const Navbar = () => {
         <div className="site-name">
           <a href="/">Hacktivities</a>
         </div>
-      <ul>
-        <li>
-          <Link to="/">Etkinlikler</Link>
-        </li>
-        <li>
-          <Link to="/">Süresi Biten Etkinlikler</Link>
-        </li>
-        <li>
-          <Link to="/about">Hakkımızda</Link>
-        </li>
-      </ul>
     </nav>
   );
 };
