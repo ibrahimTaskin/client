@@ -35,8 +35,8 @@ export const fakeData = [
   },
   {
     id: 3,
-    title: "Konser 1",
-    description: "Vizyondaki yeni konser",
+    title: "An Epic Symphony & maNga",
+    description: "Events Across Turkey’in bir kült haline gelen uluslararası ödüllü projesi  An Epic Symphony, 24 Haziran 2022’de ülkemizin en önemli rock gruplarından MANGA ‘yı Night Flight Symphony Orchestra eşliğinde yeniden ağırlıyor.",
     category: "Konser",
     date: "Sat Jun 25 2022 17:08:16 GMT+0300 (GMT+03:00)",
     city: "İstanbul",
@@ -49,9 +49,7 @@ export const fakeData = [
     ],
     map: { lat: 41.04364997598251, lng: 29.006353318485434 },
     images: [
-      { id: 1, url: "/assets/concert.png" },
-      { id: 2, url: "/assets/concert.png" },
-      { id: 3, url: "/assets/concert.png" },
+      { id: 1, url: "/assets/manga.png" },
     ],
   },
   {

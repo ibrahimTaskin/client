@@ -8,7 +8,7 @@ const ActivityItem = ({ activity }) => {
       <div id="container">
         <div class="item-details">
           <h1>{title}</h1>
-          <p className="description">{description}</p>
+          <p className="description">{description.substring(0,60)}...</p>
           <div class="control">
             <button class="btn">
              <span><Link style={{textDecoration:"none"}} to={`/${id}`}>Görüntüle</Link></span>

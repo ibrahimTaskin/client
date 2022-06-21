@@ -28,7 +28,7 @@ const ActivityDetailSocial = () => {
             justifyContent: "flex-start",
           }}
         >
-          <span>Bu etkinliği paylaş !</span>
+          <strong>Bu etkinliği paylaş !</strong>
           <FacebookShareButton quote={title} url="www.facebook.com">
             <FacebookIcon size={size} />
           </FacebookShareButton>

@@ -22,14 +22,31 @@
 }
 
 .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 90%;
-  background-color: #deedf8;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border: 2px solid #d3dee7;
   box-shadow: 0 10px 10px 10px grey;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 30px;
   margin-top: 10px;
+}
+
+.box P {
+  transition: 0.3s ease;
+}
+.box p:hover{
+  transform: translateX(20px) scale(1.1);
+}
+.box-a{
+  padding-right:30px;
+  width: 75%;
+}
+.box-b{
+ padding: 0 5px;
 }
 
 @media screen and (max-width: 767px) {
