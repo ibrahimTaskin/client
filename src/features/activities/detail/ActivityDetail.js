@@ -1,10 +1,11 @@
-import './detail.css'
+import "./detail.css";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fakeData } from "../dashboard/fakeData";
-import ActivityDetailSlider from './ActivityDetailSlider';
-import ActivityDetailMap from './ActivityDetailMap';
-import ActivityDetailSocial from './ActivityDetailSocial';
+import ActivityDetailSlider from "./ActivityDetailSlider";
+import ActivityDetailMap from "./ActivityDetailMap";
+import ActivityDetailSocial from "./ActivityDetailSocial";
+import ActivityDetailSummary from "./ActivityDetailSummary";
 
 const ActivityDetail = () => {
   const [activity, setActivity] = useState(null);
@@ -17,42 +18,14 @@ const ActivityDetail = () => {
   }, []);
 
   return (
-    <div className='detail-container'>
+    <div className="detail-container">
       <div class="row">
-        <div class="col">
-          <div class="box">
-            <ActivityDetailSlider activity={activity} />
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="box">
-            <h3>{activity?.title}</h3>
-            <p>{activity?.description}</p>
-            <p>{new Date(activity?.date).toLocaleDateString()}</p>
-            <span>{activity?.city} </span>
-            <span>{activity?.region}</span>
-            <p>{activity?.owner}</p>
-            <p>{activity?.ticket?.length > 0 ? activity?.ticket?.map(ticket=> (
-              <>              
-                <label>Kategori: {ticket.category} </label>
-                <label>Fiyat: {ticket.price} </label><br/>
-              </>
-            )) : <p>Ücretsiz</p>}</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="box">
-            <ActivityDetailSocial/>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="box">
-            <ActivityDetailMap activity={activity} />
-          </div>
-        </div>
+        <ActivityDetailSlider activity={activity} />
+        <ActivityDetailSummary activity={activity} />
+      </div>
+      <div class="row">
+        <ActivityDetailSocial />
+        <ActivityDetailMap activity={activity} />
       </div>
     </div>
   );
