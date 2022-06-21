@@ -6,8 +6,9 @@ const ActivityDetailSlider = ({ activity }) => {
     <>
       {activity !== null ? (
         <SimpleImageSlider
-          width={896}
-          height={504}
+          width={"38%"}
+          height={400}
+          style={{width:'100%',display:"flex",justifyContent:"center"}}
           images={
             activity?.images?.length > 0
               ? activity?.images
