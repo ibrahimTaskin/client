@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import ActivityFilter from "./ActivityFilter";
 import ActivityList from "./ActivityList";
 import { fakeData } from "./fakeData";
+import ActivityDashboardSlider from "./ActivityDashboardSlider";
 const _ = require("lodash");
 const isNil = require("lodash");
 
@@ -37,7 +38,7 @@ const ActivityDashboard = () => {
     let _category = e.target.name;
     let _data = fakeData;
 
-    const newData = _data?.filter(x=> x.category === _category);
+    const newData = _data?.filter((x) => x.category === _category);
     if (newData?.length !== 0) {
       setData(newData);
     }
@@ -59,14 +60,17 @@ const ActivityDashboard = () => {
 
   const getAllEndedData = () => {
     let _data = fakeData;
-    var newData = _data.filter((x) =>
-        new Date(x.date).toLocaleDateString() < new Date(Date.now()).toLocaleDateString()
+    var newData = _data.filter(
+      (x) =>
+        new Date(x.date).toLocaleDateString() <
+        new Date(Date.now()).toLocaleDateString()
     );
     setData(newData);
-  }
+  };
 
   return (
-    <>     
+    <>
+      <ActivityDashboardSlider/>
       <div className="container">
         <div className="main-content">
           <ActivityList data={data} />

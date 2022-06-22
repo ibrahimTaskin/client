@@ -7,7 +7,7 @@ const ActivityItem = ({ activity }) => {
     <div className="activity-list-item">
       <div id="container">
         <div class="item-details">
-          <h1>{title}</h1>
+          <h3>{title}</h3>
           <p className="description">{description.substring(0,60)}...</p>
           <div class="control">
             <button class="btn">
