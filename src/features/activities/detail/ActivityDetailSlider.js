@@ -15,7 +15,6 @@ const ActivityDetailSlider = ({ activity }) => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems:"center",
-                ali
               }}
               images={
                 activity?.images?.length > 0
