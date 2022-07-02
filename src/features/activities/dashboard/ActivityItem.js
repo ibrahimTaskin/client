@@ -1,8 +1,11 @@
 import React from "react";
+import { connect } from "react-redux";
+import { selectActivity } from "../../../actions";
 import { Link } from "react-router-dom";
 
-const ActivityItem = ({ activity }) => {
+const ActivityItem = ({ activity,selectActivity }) => {
   const {id,title,description,images,category,date,city,region,owner} = activity;
+
   return (
     <div className="activity-list-item">
       <div id="container">
@@ -11,7 +14,7 @@ const ActivityItem = ({ activity }) => {
           <p className="description">{description.substring(0,60)}...</p>
           <div class="control">
             <button class="btn">
-             <span><Link style={{textDecoration:"none"}} to={`/${id}`}>Görüntüle</Link></span>
+             <span><Link style={{textDecoration:"none"}} to={`/${id}`} onClick={()=> selectActivity(activity)} >Görüntüle</Link></span>
             </button>
           </div>
         </div>
@@ -42,4 +45,4 @@ const ActivityItem = ({ activity }) => {
   );
 };
 
-export default ActivityItem;
+export default connect(null, {selectActivity})(ActivityItem);

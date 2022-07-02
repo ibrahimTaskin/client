@@ -6,17 +6,9 @@ import ActivityDetailSlider from "./ActivityDetailSlider";
 import ActivityDetailMap from "./ActivityDetailMap";
 import ActivityDetailSocial from "./ActivityDetailSocial";
 import ActivityDetailSummary from "./ActivityDetailSummary";
+import { connect } from "react-redux";
 
-const ActivityDetail = () => {
-  const [activity, setActivity] = useState(null);
-  const { id } = useParams();
-
-  useEffect(() => {
-    let _id = id;
-    let _activity = fakeData.find((x) => x.id === parseInt(_id));
-    setActivity(_activity);
-  }, []);
-
+const ActivityDetail = ({activity}) => {
   return (
     <div className="detail-container">
       <div class="row">
@@ -31,4 +23,10 @@ const ActivityDetail = () => {
   );
 };
 
-export default ActivityDetail;
+const mapStateToProps = (state) => {
+  return {
+    activity:state.selectedActivity
+  }
+}
+
+export default connect(mapStateToProps)(ActivityDetail);

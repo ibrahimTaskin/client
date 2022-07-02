@@ -4,11 +4,13 @@ import ActivityFilter from "./ActivityFilter";
 import ActivityList from "./ActivityList";
 import { fakeData } from "./fakeData";
 import ActivityDashboardSlider from "./ActivityDashboardSlider";
+import { connect } from "react-redux";
+import { selectActivity } from "../../../actions";
 const _ = require("lodash");
 const isNil = require("lodash");
 
-const ActivityDashboard = () => {
-  const [data, setData] = useState(fakeData);
+const ActivityDashboard = ({activities}) => {
+  const [data, setData] = useState(activities);
   const [categories, setCategories] = useState([]);
   const [value, setValue] = useState(new Date());
 
@@ -18,7 +20,7 @@ const ActivityDashboard = () => {
   }, []);
 
   const handleChange = (e) => {
-    let _data = fakeData;
+    let _data = activities;
     let searchedData = e.target.value.toLowerCase();
     const newData = _data?.filter(
       (x) =>
@@ -36,7 +38,7 @@ const ActivityDashboard = () => {
 
   const handleCategoryChange = (e) => {
     let _category = e.target.name;
-    let _data = fakeData;
+    let _data = activities;
 
     const newData = _data?.filter((x) => x.category === _category);
     if (newData?.length !== 0) {
@@ -45,7 +47,7 @@ const ActivityDashboard = () => {
   };
 
   const findDate = (value) => {
-    let _data = fakeData;
+    let _data = activities;
     setValue(value);
     var newData = _data.filter(
       (x) =>
@@ -55,11 +57,11 @@ const ActivityDashboard = () => {
     setData(newData);
   };
   const getAllData = () => {
-    setData(fakeData);
+    setData(activities);
   };
 
   const getAllEndedData = () => {
-    let _data = fakeData;
+    let _data = activities;
     var newData = _data.filter(
       (x) =>
         new Date(x.date).toLocaleDateString() <
@@ -70,7 +72,7 @@ const ActivityDashboard = () => {
 
   return (
     <>
-      <ActivityDashboardSlider/>
+      <ActivityDashboardSlider />
       <div className="container">
         <div className="main-content">
           <ActivityList data={data} />
@@ -91,4 +93,10 @@ const ActivityDashboard = () => {
   );
 };
 
-export default ActivityDashboard;
+const mapStateToProps = (state) => {
+  return {
+    activities: state.activities,
+  };
+};
+
+export default connect(mapStateToProps, {selectActivity})(ActivityDashboard);
